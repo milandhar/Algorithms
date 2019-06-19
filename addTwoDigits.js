@@ -2,7 +2,7 @@ function addTwoDigits(integer) {
   numberString = integer.toString()
   numberArray = numberString.split("")
   return parseInt(numberArray[0]) + parseInt(numberArray[1])
-}
+} 
 
 // You are given a two-digit integer n. Return the sum of its digits.
 
