@@ -2,7 +2,7 @@ function largestOfFour(nestedArray) {
   let i = 0
   let maxArray = []
   while(i<4){
-    let arrayMax = 0
+    let arrayMax = nestedArray[i][0]
     for (let j = 0; j < nestedArray[i].length; j++){
       if(nestedArray[i][j] > arrayMax){
         arrayMax = nestedArray[i][j]
